@@ -14,5 +14,41 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:text="Connecting"
+        android:id="@+id/textview_connection_status"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vertical Value"
+        android:id="@+id/textview_text_vv"
+        android:layout_below="@+id/textview_connection_status"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horizontal Value"
+        android:id="@+id/textview_text_hv"
+        android:layout_below="@+id/textview_text_vv"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:id="@+id/textview_vertical_value"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_toRightOf="@+id/textview_text_vv"
+        android:layout_alignBottom="@+id/textview_text_vv"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:id="@+id/textview_horizontal_value"
+        android:layout_alignBottom="@+id/textview_text_hv"
+        android:layout_alignRight="@+id/textview_vertical_value"/>
 </RelativeLayout>
