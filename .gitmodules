@@ -1,0 +1,6 @@
+[submodule "bluetoothtank"]
+	path = bluetoothtank
+	url = https://github.com/aaronps/bluetoothtank.git
+[submodule "touchjoystick"]
+	path = touchjoystick
+	url = https://github.com/aaronps/touchjoystick.git
